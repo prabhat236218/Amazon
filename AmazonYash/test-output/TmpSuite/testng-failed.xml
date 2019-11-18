@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TmpSuite]">
+  <test name="TmpTest(failed)">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setUp"/>
+          <include name="getLastOrder"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeDriver"/>
+          <include name="checkIsUserPrime"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+    </classes>
+  </test> <!-- TmpTest(failed) -->
+</suite> <!-- Failed suite [TmpSuite] -->

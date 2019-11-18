@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="tests" thread-count="5"> 
+	<test name="AddToCartTest">
+		<classes>
+			<class
+				name="testingframeworks.amazon.testcases.AddToCartTest" />
+		</classes>
+	</test>
+	<test name="CheckIfUserIsPrime">
+		<classes>
+			<class
+				name="testingframeworks.amazon.testcases.CheckIfUserIsPrime" />
+		</classes>
+	</test>
+	<test name="LastOrderTest">
+		<classes>
+			<class
+				name="testingframeworks.amazon.testcases.LastOrderTest" />
+		</classes>
+	</test>
+	<test name="SearchTest">
+		<classes>
+			<class
+				name="testingframeworks.amazon.testcases.SearchTest" />
+		</classes>
+	</test>
+	<test name="TodaysDealTest">
+		<classes>
+			<class
+				name="testingframeworks.amazon.testcases.TodaysDealTest" />
+		</classes>
+	</test>
+</suite>	

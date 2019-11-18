@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashaddToCartAndCartTotalCheck.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashcheckIsUserPrime.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACUTAL VAUE: false]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashcheckIsUserPrime.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashaddToCartAndCartTotalCheck.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: 2]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: 2]]>
+    </line>
+    <line>
+      <![CDATA[ACTUAL VALUE: 109200]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: 109200]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashgetLastOrder.png"/>]]>
+    </line>
+    <line>
+      <![CDATA[ACUTAL VAUE: false]]>
+    </line>
+    <line>
+      <![CDATA[EXPECTED VALUE: true]]>
+    </line>
+    <line>
+      <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashcheckIsUserPrime.png"/>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46907" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:02:12Z">
+    <groups>
+    </groups>
+    <test name="SearchTest" duration-ms="31745" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:01:57Z">
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testingframeworks.amazon.testcases.SearchTest@1e79d43]" name="setUp" is-config="true" duration-ms="15409" started-at="2019-11-18T11:31:25Z" finished-at="2019-11-18T11:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79696332]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchForAProduct()[pri:0, instance:testingframeworks.amazon.testcases.SearchTest@1e79d43]" name="searchForAProduct" duration-ms="4107" started-at="2019-11-18T11:31:40Z" finished-at="2019-11-18T11:31:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ACTUAL VALUE: true]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: true]]>
+            </line>
+            <line>
+              <![CDATA[ACTUAL VALUE: true]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchForAProduct -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testingframeworks.amazon.testcases.SearchTest@1e79d43]" name="closeDriver" is-config="true" duration-ms="12227" started-at="2019-11-18T11:31:45Z" finished-at="2019-11-18T11:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+    </test> <!-- SearchTest -->
+    <test name="TodaysDealTest" duration-ms="34238" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:01:59Z">
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testingframeworks.amazon.testcases.TodaysDealTest@36aab105]" name="setUp" is-config="true" duration-ms="14739" started-at="2019-11-18T11:31:25Z" finished-at="2019-11-18T11:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@ed2f2f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getListOfTodaysDeals()[pri:0, instance:testingframeworks.amazon.testcases.TodaysDealTest@36aab105]" name="getListOfTodaysDeals" duration-ms="11341" started-at="2019-11-18T11:31:40Z" finished-at="2019-11-18T11:31:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ACTUAL VALUE: true]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getListOfTodaysDeals -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testingframeworks.amazon.testcases.TodaysDealTest@36aab105]" name="closeDriver" is-config="true" duration-ms="8154" started-at="2019-11-18T11:31:51Z" finished-at="2019-11-18T11:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+    </test> <!-- TodaysDealTest -->
+    <test name="AddToCartTest" duration-ms="39025" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:02:04Z">
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testingframeworks.amazon.testcases.AddToCartTest@46046c06]" name="setUp" is-config="true" duration-ms="14873" started-at="2019-11-18T11:31:25Z" finished-at="2019-11-18T11:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@fe87ddd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addToCartAndCartTotalCheck()[pri:0, instance:testingframeworks.amazon.testcases.AddToCartTest@46046c06]" name="addToCartAndCartTotalCheck" duration-ms="14846" started-at="2019-11-18T11:31:40Z" finished-at="2019-11-18T11:31:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[ACTUAL VALUE: 2]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: 2]]>
+            </line>
+            <line>
+              <![CDATA[ACTUAL VALUE: 109200]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: 109200]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addToCartAndCartTotalCheck -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testingframeworks.amazon.testcases.AddToCartTest@46046c06]" name="closeDriver" is-config="true" duration-ms="9304" started-at="2019-11-18T11:31:55Z" finished-at="2019-11-18T11:32:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+    </test> <!-- AddToCartTest -->
+    <test name="LastOrderTest" duration-ms="43658" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:02:09Z">
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testingframeworks.amazon.testcases.LastOrderTest@467233e4]" name="setUp" is-config="true" duration-ms="14729" started-at="2019-11-18T11:31:25Z" finished-at="2019-11-18T11:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4eea94a4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="getLastOrder()[pri:0, instance:testingframeworks.amazon.testcases.LastOrderTest@467233e4]" name="getLastOrder" duration-ms="22110" started-at="2019-11-18T11:31:40Z" finished-at="2019-11-18T11:32:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPINHYDW1422', ip: '10.71.12.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: true, moz:processID: 11160, moz:profile: C:\Users\Prabhat_Kumar2\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba58d3a0-938c-44b1-b6ef-f5dcca51de11
+*** Element info: {Using=xpath, value=//input[@id='ap_password']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='ap_password']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPINHYDW1422', ip: '10.71.12.226', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.24.0, moz:headless: true, moz:processID: 11160, moz:profile: C:\Users\Prabhat_Kumar2\App..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba58d3a0-938c-44b1-b6ef-f5dcca51de11
+*** Element info: {Using=xpath, value=//input[@id='ap_password']}
+	at sun.reflect.GeneratedConstructorAccessor44.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+	at testingframeworks.amazon.pages.SignInPage.enter(SignInPage.java:30)
+	at testingframeworks.amazon.testcases.LastOrderTest.getLastOrder(LastOrderTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashgetLastOrder.png"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLastOrder -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testingframeworks.amazon.testcases.LastOrderTest@467233e4]" name="closeDriver" is-config="true" duration-ms="6713" started-at="2019-11-18T11:32:02Z" finished-at="2019-11-18T11:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+    </test> <!-- LastOrderTest -->
+    <test name="CheckIfUserIsPrime" duration-ms="46907" started-at="2019-11-18T06:01:25Z" finished-at="2019-11-18T06:02:12Z">
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:testingframeworks.amazon.testcases.CheckIfUserIsPrime@2e463f4]" name="setUp" is-config="true" duration-ms="14927" started-at="2019-11-18T11:31:25Z" finished-at="2019-11-18T11:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c281eb8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="checkIsUserPrime()[pri:0, instance:testingframeworks.amazon.testcases.CheckIfUserIsPrime@2e463f4]" name="checkIsUserPrime" duration-ms="25084" started-at="2019-11-18T11:31:40Z" finished-at="2019-11-18T11:32:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at testingframeworks.amazon.utilities.CustomAssertion.assertTrue(CustomAssertion.java:29)
+	at testingframeworks.amazon.testcases.CheckIfUserIsPrime.checkIsUserPrime(CheckIfUserIsPrime.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:421)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[ACUTAL VAUE: false]]>
+            </line>
+            <line>
+              <![CDATA[EXPECTED VALUE: true]]>
+            </line>
+            <line>
+              <![CDATA[<img src="C:\Users\Prabhat_Kumar2\Desktop\Amazon12-11-2019\AmazonYashcheckIsUserPrime.png"/>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkIsUserPrime -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testingframeworks.amazon.testcases.CheckIfUserIsPrime@2e463f4]" name="closeDriver" is-config="true" duration-ms="6653" started-at="2019-11-18T11:32:05Z" finished-at="2019-11-18T11:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+    </test> <!-- CheckIfUserIsPrime -->
+  </suite> <!-- Suite -->
+</testng-results>

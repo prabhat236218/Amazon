@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <test name="CheckIfUserIsPrime(failed)" parallel="tests">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkIsUserPrime"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+    </classes>
+  </test> <!-- CheckIfUserIsPrime(failed) -->
+  <test name="SearchTest(failed)" parallel="tests">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchForAProduct"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+    </classes>
+  </test> <!-- SearchTest(failed) -->
+  <test name="TodaysDealTest(failed)" parallel="tests">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getListOfTodaysDeals"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+    </classes>
+  </test> <!-- TodaysDealTest(failed) -->
+  <test name="AddToCartTest(failed)" parallel="tests">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addToCartAndCartTotalCheck"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+    </classes>
+  </test> <!-- AddToCartTest(failed) -->
+  <test name="LastOrderTest(failed)" parallel="tests">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getLastOrder"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+    </classes>
+  </test> <!-- LastOrderTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite (0)]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="testingframeworks.amazon.testcases.LastOrderTest">
+        <methods>
+          <include name="getLastOrder"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.LastOrderTest -->
+      <class name="testingframeworks.amazon.testcases.SearchTest">
+        <methods>
+          <include name="searchForAProduct"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.SearchTest -->
+      <class name="testingframeworks.amazon.testcases.AddToCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="addToCartAndCartTotalCheck"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.AddToCartTest -->
+      <class name="testingframeworks.amazon.testcases.TodaysDealTest">
+        <methods>
+          <include name="getListOfTodaysDeals"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.TodaysDealTest -->
+      <class name="testingframeworks.amazon.testcases.CheckIfUserIsPrime">
+        <methods>
+          <include name="checkIsUserPrime"/>
+        </methods>
+      </class> <!-- testingframeworks.amazon.testcases.CheckIfUserIsPrime -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite (0)] -->
