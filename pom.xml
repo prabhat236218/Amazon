@@ -17,32 +17,6 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 	
-	<profiles>  
- <profile>  
-  <id>code-generator</id>  
-  <build>  
-   <plugins>  
-    <plugin>  
-     <groupId>org.codehaus.mojo</groupId>  
-     <artifactId>exec-maven-plugin</artifactId>  
-     <version>1.1.1</version>  
-     <executions>  
-      <execution>  
-       <phase>test</phase>  
-       <goals>  
-        <goal>java</goal>  
-       </goals>  
-       <configuration>  
-        <mainClass>src.test.java.testingframeworks.amazon.runner.Runner</mainClass>  
-       </configuration>  
-      </execution>  
-     </executions>  
-    </plugin>  
-   </plugins>  
-  </build>  
- </profile>  
-</profiles>  
-	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
