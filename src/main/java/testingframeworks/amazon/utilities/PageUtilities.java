@@ -17,7 +17,7 @@ public class PageUtilities {
 	
 	public static final String TEST_CONFIG_FILE = "test.properties";
 	public static final String UTILITY_CONFIG_FILE = "utility.properties";
-	public static String SELECTED_BROWSER = "gecko";
+	public static String SELECTED_BROWSER = "chrome";
 	
 	private PageUtilities() {
 		
